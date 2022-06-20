@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+header {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+}
+header img {
+  padding-right: 2rem;
+}
+
+.sign-up-section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+}
+
+.sign-up-image img {
+  max-width: 100%;
+}
+.sign-up p:first-child {
+  color: #ff3998;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sign-up h1 {
+  font-weight: 900;
+}
+.sign-up p {
+  color: #565555;
+}
+button {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  border-top-color: #ff6642;
+  border-right-color: #d4a055;
+  border-bottom-color: #ff8039;
+  border-left-color: #ff4975;
+}
+.Free-NFT-ad {
+  background-image: url("/assets/assets/background.svg");
+  margin-top: 2rem;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Free-NFT-ad div {
+  padding-right: 2rem;
+}
+.logo div {
+  margin-top: 2rem;
+  justify-content: space-around;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-width: 100%;
+}
+.carousel {
+  margin: 2rem;
+}
+.carousel p {
+  color: #565555;
+  margin-bottom: 2rem;
+}
+.carousel a {
+  color: #565555;
+}
+
+.elements-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.element {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+table {
+  width: 100%;
+  padding: 1rem;
+}
+.th1 {
+  color: #fd8e4f;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  text-align: left;
+}
+.th2 {
+  color: #777777;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  text-align: right;
+}
+.td1 {
+  font-weight: 600;
+}
+.td2 {
+  font-weight: 600;
+  text-align: right;
+  padding: 0 auto;
+}
+.td2 img {
+  margin-right: 0.5rem;
+}
+.td3 {
+  color: #777777;
+  text-align: left;
+}
+.td4 {
+  color: #777777;
+  text-align: right;
+}
+footer {
+  margin: 2rem;
+}
+footer h3 {
+  color: #777777;
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer i {
+  color: #777777;
+}
+footer h5 {
+  color: #777777;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 5rem;
+}
+li {
+  color: #777777;
+  margin-bottom: 0.5rem;
+}
+.list-container {
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .hamburger-icon {
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: #b5b4b5;
+  }
+  nav a:last-child {
+    color: #ff6ab2;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
