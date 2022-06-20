@@ -13,17 +13,15 @@ header {
 header img {
   padding-right: 2rem;
 }
+
 .sign-up-section {
   display: flex;
   flex-direction: row;
   padding-left: 2rem;
 }
-/* .sign-up {
-  flex-grow: 2;
-} */
+
 .sign-up-image img {
   max-width: 100%;
-  /* height: auto; */
 }
 .sign-up p:first-child {
   color: #ff3998;
@@ -84,10 +82,13 @@ button {
 .elements-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .element {
   background-color: #eeeeee;
   border-radius: 20px;
+  margin-top: 2rem;
+  margin-right: 2rem;
 }
 table {
   width: 100%;
@@ -151,4 +152,25 @@ li {
 }
 .list-container {
   display: flex;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .hamburger-icon {
+    display: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: #b5b4b5;
+  }
+  nav a:last-child {
+    color: #ff6ab2;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
